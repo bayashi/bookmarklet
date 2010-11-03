@@ -1,0 +1,35 @@
+Google検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://www.google.co.jp/search?hl=ja&lr=lang_ja&q='+encodeURIComponent(Q),'_blank');})()
+
+bing検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://www.bing.com/search?scope=web&q='+encodeURIComponent(Q),'_blank');})()
+
+Yahoo!カテゴリ検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://search.yahoo.co.jp/search/dir?ei=UTF-8&fr=sfp_as&p='+encodeURIComponent(Q),'_blank');})()
+
+
+英辞郎
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("What's Word?","");if(Q)open('http://eow.alc.co.jp/'+encodeURIComponent(Q)+'/UTF-8/','_blank');})()
+
+エキサイト英日翻訳
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("What's%20Word?","");u='http://www.excite.co.jp/world/english/';if(Q){open(u+'?wb_lp=ENJA&ie=UTF-8&before='+encodeURIComponent(Q),'_blank');}else{location.href=u+'web/?wb_lp=ENJA&wb_url='+encodeURIComponent(location.href);}})()
+
+
+Amazon検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://www.amazon.co.jp/gp/search?ie=UTF8&index=blended&linkCode=ur2&camp=247&creative=1211&keywords='+encodeURIComponent(Q),'_blank');})()
+
+
+Google Blog検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://blogsearch.google.co.jp/blogsearch?hl=ja&lr=lang_ja&q='+encodeURIComponent(Q),'_blank');})()
+
+
+今いるサイト内検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q){Q=prompt("Keyword","");};Q="site:http://"+location.host+"/%20"+Q;if(Q)open('http://www.google.co.jp/search?hl=ja&lr=lang_ja&q='+encodeURIComponent(Q),'_blank');})();
+
+
+CPAN検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("What's Module?","");if(Q)open('http://search.cpan.org/search?mode=all&query='+encodeURIComponent(Q),'_blank');})()
+
+perldoc
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://perldoc.perl.org/5.8.8/search.html?q='+encodeURIComponent(Q),'_blank');})()
+
