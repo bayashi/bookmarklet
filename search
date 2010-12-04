@@ -19,6 +19,14 @@ Amazon検索
 javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://www.amazon.co.jp/gp/search?ie=UTF8&index=blended&linkCode=ur2&camp=247&creative=1211&keywords='+encodeURIComponent(Q),'_blank');})()
 
 
+価格.com検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search%20Keyword?","");if(Q)open('http://kakaku.com/search_results/?query='+encodeURIComponent(Q),'_blank');})()
+
+
+比較.com検索
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search%20Keyword?","");if(Q)open('http://www.hikaku.com/shopping/search/'+encodeURIComponent(Q)+'/','_blank');})()
+
+
 Google Blog検索
 javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://blogsearch.google.co.jp/blogsearch?hl=ja&lr=lang_ja&q='+encodeURIComponent(Q),'_blank');})()
 
