@@ -41,3 +41,5 @@ javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.
 perldoc
 javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Search Keyword?","");if(Q)open('http://perldoc.perl.org/5.8.8/search.html?q='+encodeURIComponent(Q),'_blank');})()
 
+GitHub
+javascript:(function(){Q=''+(window.getSelection?window.getSelection():document.getSelection?document.getSelection():document.selection.createRange().text);if(!Q)Q=prompt("Input Keyword","");if(Q)open('https://github.com/search?type=Everything&start_value=1&q='+encodeURIComponent(Q),'_blank');})()
